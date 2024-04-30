@@ -1285,7 +1285,7 @@ progress {
   }
   .col-lg-5 {
     flex: 0 0 auto;
-    width: 41.66666667%;
+    width: 100%;
   }
   .col-lg-6 {
     flex: 0 0 auto;
@@ -10834,7 +10834,7 @@ body {
 }
 
 p {
-  line-height: 1.75;
+  line-height: 2;
 }
 
 .page-section {
@@ -11458,3 +11458,30 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 /*End of portfolio styling from Freelancer template*/
+
+/* Team */
+body{
+  background:#eee;
+  margin-top:20px;
+}
+.img-thumbnail {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
